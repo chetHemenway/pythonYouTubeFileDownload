@@ -167,3 +167,4 @@ for file in googleSourceFiles:
 for file in csvList:
     shutil.copy(os.path.join(googleSourcePath, file), os.path.join(googleDestinationPath, file))
 
+print('Everything has been moved.')
